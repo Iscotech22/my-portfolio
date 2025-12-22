@@ -1,0 +1,99 @@
+/* Reset & base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #333333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #0D6EFD;
+}
+
+a {
+  color: #0D6EFD;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFA500;
+}
+/* Hero Section */
+.hero {
+  max-width: 800px;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+/* Nav Bar Section Design */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.logo {
+  color: #0D6EFD;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+/* About section Design */
+.about {
+  max-width: 800px;
+  margin: 60px auto;
+}
+
+.about p {
+  margin-top: 15px;
+}
+
+/* Project Section */
+.projects {
+  max-width: 800px;
+  margin: 60px auto;
+}
+
+.project-card {
+  background: #F5F5F5;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+ /* Contact Section */
+ .contact {
+  max-width: 800px;
+  margin: 60px auto;
+  text-align: center;
+}
